@@ -7,6 +7,14 @@ sayHelloWorld();
 int x = returnFive();
 System.out.println(x);
 
+int result = square(returnFive());
+System.out.println(result);
+
+
+}
+
+static int square(int x) {
+	return x * x;
 }
 
 static void sayHelloTo(String name) {
