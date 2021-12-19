@@ -14,8 +14,10 @@ public class TypesAndVariables {
 		System.out.println(x);
 	
 	
-	String hello = "Hello, world!";
-	System.out.println(hello);
+	String hello = "Hello, ";
+	String name = "Ivana";
+	System.out.println(hello + name); //string concatenation
+	
 	}
 	
 }
