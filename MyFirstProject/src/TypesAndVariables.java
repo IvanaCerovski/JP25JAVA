@@ -12,6 +12,10 @@ public class TypesAndVariables {
 		
 		x = myVariable;
 		System.out.println(x);
+	
+	
+	String hello = "Hello, world!";
+	System.out.println(hello);
 	}
 	
 }
