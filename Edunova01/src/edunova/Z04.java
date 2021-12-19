@@ -9,13 +9,14 @@ public class Z04 {
 	//ili false ako je učitani broj neparan.
 
 	public static void main(String[] args) {
-		int a;
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
 		
-		if (a%2 == 0) {
-			System.out.println("True");
-		}else {
-			System.out.println("False");
-		}
+			int a;
+			a= Integer.parseInt(
+					JOptionPane.showInputDialog("Unesi cijeli broj")
+					);
+			
+			boolean rezultat =  a%2 == 0;
+			System.out.print(rezultat);
+		
 	}
 }
