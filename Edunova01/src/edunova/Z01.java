@@ -7,17 +7,20 @@ public class Z01 {
 	// Program učitava dva cijela broja i ispisuje njihovu razliku
 	
 	public static void main(String[] args) {
-		int a;
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
 		
-	    int b;
-	    b = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
+	    int x, y;
+	    x = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
+	    y = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
 	    
-	    int c;
-	    c = a - b;
+	    int rezultat = x - y;
+	    System.out.println(rezultat);
 	    
-	    System.out.println(c);
+	
+	    
+		
+	}
+	
 		
 	}
 
-}
+
